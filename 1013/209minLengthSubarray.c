@@ -1,3 +1,5 @@
+#include <limits.h>
+
 int minSubArrayLen(int target, int* nums, int numsSize) {
     int minLength = INT_MAX;//INT_MAX代表了int类型的所能表示的最大值 以方便后续正确更新数组的长度
     int sum = 0;

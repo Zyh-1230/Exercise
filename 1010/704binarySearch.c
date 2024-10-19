@@ -1,3 +1,6 @@
+/*
+ 使用二分法查找数组时，对数组的顺序有要求，要么升序要么降序
+ */
 int search_1(int* nums, int numsSize, int target) {
     int i = 0;
     while(target != nums[i] && i < numsSize-1)//i<numsSize-1是为了防止当target在数组中不存在时，++i后i= numsSize，而这样越界访问了数组元素
