@@ -1,0 +1,3 @@
+/Users/zhouyuhan/Desktop/practice/1025/Cmake/CMakeFiles/link.dir
+/Users/zhouyuhan/Desktop/practice/1025/Cmake/CMakeFiles/edit_cache.dir
+/Users/zhouyuhan/Desktop/practice/1025/Cmake/CMakeFiles/rebuild_cache.dir
