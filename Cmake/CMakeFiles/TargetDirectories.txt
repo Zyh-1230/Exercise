@@ -1,0 +1,3 @@
+/Users/zhouyuhan/Documents/Code/practice/Cmake/CMakeFiles/logo.dir
+/Users/zhouyuhan/Documents/Code/practice/Cmake/CMakeFiles/edit_cache.dir
+/Users/zhouyuhan/Documents/Code/practice/Cmake/CMakeFiles/rebuild_cache.dir

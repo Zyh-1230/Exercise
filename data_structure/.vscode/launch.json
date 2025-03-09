@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/zhouyuhan/Documents/Code/practice/data_structure",
+      "program": "/Users/zhouyuhan/Documents/Code/practice/data_structure/build/Debug/outDebug"
+    }
+  ]
+}
