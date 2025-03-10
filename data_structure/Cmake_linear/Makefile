@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named linear
+# Target rules for targets named link
 
 # Build rule for target.
-linear: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 linear
-.PHONY : linear
+link: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 link
+.PHONY : link
 
 # fast build rule for target.
-linear/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/linear.dir/build.make CMakeFiles/linear.dir/build
-.PHONY : linear/fast
+link/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/link.dir/build.make CMakeFiles/link.dir/build
+.PHONY : link/fast
 
-Users/zhouyuhan/Documents/Code/practice/data_structure/linear_list.o: Users/zhouyuhan/Documents/Code/practice/data_structure/linear_list.c.o
-.PHONY : Users/zhouyuhan/Documents/Code/practice/data_structure/linear_list.o
+Users/zhouyuhan/Documents/Code/practice/data_structure/2-3_LinkedShow.o: Users/zhouyuhan/Documents/Code/practice/data_structure/2-3_LinkedShow.c.o
+.PHONY : Users/zhouyuhan/Documents/Code/practice/data_structure/2-3_LinkedShow.o
 
 # target to build an object file
-Users/zhouyuhan/Documents/Code/practice/data_structure/linear_list.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/linear.dir/build.make CMakeFiles/linear.dir/Users/zhouyuhan/Documents/Code/practice/data_structure/linear_list.c.o
-.PHONY : Users/zhouyuhan/Documents/Code/practice/data_structure/linear_list.c.o
+Users/zhouyuhan/Documents/Code/practice/data_structure/2-3_LinkedShow.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/link.dir/build.make CMakeFiles/link.dir/Users/zhouyuhan/Documents/Code/practice/data_structure/2-3_LinkedShow.c.o
+.PHONY : Users/zhouyuhan/Documents/Code/practice/data_structure/2-3_LinkedShow.c.o
 
-Users/zhouyuhan/Documents/Code/practice/data_structure/linear_list.i: Users/zhouyuhan/Documents/Code/practice/data_structure/linear_list.c.i
-.PHONY : Users/zhouyuhan/Documents/Code/practice/data_structure/linear_list.i
+Users/zhouyuhan/Documents/Code/practice/data_structure/2-3_LinkedShow.i: Users/zhouyuhan/Documents/Code/practice/data_structure/2-3_LinkedShow.c.i
+.PHONY : Users/zhouyuhan/Documents/Code/practice/data_structure/2-3_LinkedShow.i
 
 # target to preprocess a source file
-Users/zhouyuhan/Documents/Code/practice/data_structure/linear_list.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/linear.dir/build.make CMakeFiles/linear.dir/Users/zhouyuhan/Documents/Code/practice/data_structure/linear_list.c.i
-.PHONY : Users/zhouyuhan/Documents/Code/practice/data_structure/linear_list.c.i
+Users/zhouyuhan/Documents/Code/practice/data_structure/2-3_LinkedShow.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/link.dir/build.make CMakeFiles/link.dir/Users/zhouyuhan/Documents/Code/practice/data_structure/2-3_LinkedShow.c.i
+.PHONY : Users/zhouyuhan/Documents/Code/practice/data_structure/2-3_LinkedShow.c.i
 
-Users/zhouyuhan/Documents/Code/practice/data_structure/linear_list.s: Users/zhouyuhan/Documents/Code/practice/data_structure/linear_list.c.s
-.PHONY : Users/zhouyuhan/Documents/Code/practice/data_structure/linear_list.s
+Users/zhouyuhan/Documents/Code/practice/data_structure/2-3_LinkedShow.s: Users/zhouyuhan/Documents/Code/practice/data_structure/2-3_LinkedShow.c.s
+.PHONY : Users/zhouyuhan/Documents/Code/practice/data_structure/2-3_LinkedShow.s
 
 # target to generate assembly for a file
-Users/zhouyuhan/Documents/Code/practice/data_structure/linear_list.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/linear.dir/build.make CMakeFiles/linear.dir/Users/zhouyuhan/Documents/Code/practice/data_structure/linear_list.c.s
-.PHONY : Users/zhouyuhan/Documents/Code/practice/data_structure/linear_list.c.s
+Users/zhouyuhan/Documents/Code/practice/data_structure/2-3_LinkedShow.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/link.dir/build.make CMakeFiles/link.dir/Users/zhouyuhan/Documents/Code/practice/data_structure/2-3_LinkedShow.c.s
+.PHONY : Users/zhouyuhan/Documents/Code/practice/data_structure/2-3_LinkedShow.c.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... linear"
-	@echo "... Users/zhouyuhan/Documents/Code/practice/data_structure/linear_list.o"
-	@echo "... Users/zhouyuhan/Documents/Code/practice/data_structure/linear_list.i"
-	@echo "... Users/zhouyuhan/Documents/Code/practice/data_structure/linear_list.s"
+	@echo "... link"
+	@echo "... Users/zhouyuhan/Documents/Code/practice/data_structure/2-3_LinkedShow.o"
+	@echo "... Users/zhouyuhan/Documents/Code/practice/data_structure/2-3_LinkedShow.i"
+	@echo "... Users/zhouyuhan/Documents/Code/practice/data_structure/2-3_LinkedShow.s"
 .PHONY : help
 
 
